@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 300px;
+    height: 180px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #09BAB3;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+textarea {
+    width: 53%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #09BAB3;
+    border-radius: 4px;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+  }
+
+body {
+    background-color: whitesmoke;
+}
+.cabecalho {
+    align-items: center;
+    height: 80px;
+    background-color: #09BAB3;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 45px;
+    
+}
+
+.cabecalho .logo {
+    float: left;
+    color: ivory;
+}
+
+.cabecalho .navbar {
+    float: right;
+}
+.cabecalho .nav {
+    float: left;
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho .nav a{
+    text-decoration: none;
+    color: ivory;
+    font-weight: bold;
+}
+
+.cabecalho .nav a:hover{
+    text-decoration: underline;
+}
+.noticias {
+    height: 455px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+       
+}
+
+.noticia {
+    background-color: ivory;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 55px;
+    padding: 15px;
+    height: 400px;
+    width: 25%;
+    float: left;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.noticia a{
+    text-decoration: none;
+    color: black;
+}
+
+.sobre {
+    align-items: center;
+    height: 200px;
+    background-color: #09BAB3;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 45px;
+    text-align: center;
+    color: ivory;
+    
+}
+
+.sobre a{
+    text-decoration: none;
+    color: ivory;
+    font-weight: bold;
+}
+
+.formulario {
+    padding-left: 40px;
+    padding-right: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.enviar input {
+    background-color: #6FD6CE;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.mais {
+    height: 200px;
+    background-color: #09BAB3;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 45px;
+    text-align: left;
+    color: ivory;
+}
+
+.mais h1, a{
+    text-align: center;
+    text-decoration: none;
+    color: ivory;
+}
